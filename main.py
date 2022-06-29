@@ -18,4 +18,5 @@ def rest():
     return jsonify({"xd": "hola"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    print('Done!')
+    app.run()
