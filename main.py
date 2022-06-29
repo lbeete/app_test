@@ -1,9 +1,4 @@
-import os
-os.system('pip install -r requirements.txt')
-try:
-    from flask import Flask, render_template, jsonify
-except ModuleNotFoundError:
-    from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify
 
 app = Flask(__name__, template_folder='Templates')
 
