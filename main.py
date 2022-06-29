@@ -3,7 +3,7 @@ try:
 except:
     import os
     os.system('pip install flask')
-#holaj
+#holaja
 
 from flask import Flask, render_template, jsonify
 
