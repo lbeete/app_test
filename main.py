@@ -1,3 +1,9 @@
+try:
+    from flask import Flask, render_template, jsonify
+except:
+    import os
+    os.system('pip install flask')
+ 
 from flask import Flask, render_template, jsonify
 
 app = Flask(__name__, template_folder='Templates')
