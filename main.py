@@ -3,7 +3,7 @@ try:
 except:
     import os
     os.system('pip install -r requirements.txt')
-    from website import create_app
+    from website import create_app #a
 
 app = create_app()
 
